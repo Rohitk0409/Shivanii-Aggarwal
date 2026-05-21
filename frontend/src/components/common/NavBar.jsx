@@ -73,10 +73,10 @@ function NavBar() {
               </div>
               <div className="leading-tight">
                 <h1 className="text-[17px] font-bold text-slate-800 tracking-tight group-hover:text-emerald-700 transition-colors duration-200">
-                  Shivanii Aggarwal
+                  Anttahkarana
                 </h1>
                 <p className="text-[11px] font-medium tracking-widest text-teal-500 uppercase">
-                  Life Coach &amp; Healer
+                  Inner Calling
                 </p>
               </div>
             </Link>

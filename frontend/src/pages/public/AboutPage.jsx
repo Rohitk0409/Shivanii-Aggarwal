@@ -90,7 +90,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-teal-300 to-blue-300 rotate-3" />
               <div className="relative rounded-3xl overflow-hidden w-full h-full shadow-xl">
                 <img
-                  src="/gallery/image2.png"
+                  src="/gallery/image1.png"
                   alt="Shivanii Aggarwal"
                   className="w-full h-full object-cover"
                   onError={(e) => {
