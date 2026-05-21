@@ -350,7 +350,7 @@ export default function HomePage() {
       ===================================================== */}
       <section
         ref={heroRef}
-        className="relative min-h-screen flex items-center pt-24 overflow-hidden"
+        className="relative min-h-[100svh] flex items-center py-24 overflow-visible"
       >
         <ParticleField />
 
@@ -480,7 +480,7 @@ export default function HomePage() {
             {/* =====================================================
       OUTER GLOW RING
   ===================================================== */}
-            <div className="absolute w-[340px] h-[340px] md:w-[420px] md:h-[420px] rounded-full bg-gradient-to-br from-teal-500 via-cyan-500 to-blue-600 p-[3px] glow-teal animate-float">
+            <div className="relative w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[420px] md:h-[420px] rounded-full bg-gradient-to-br from-teal-500 via-cyan-500 to-blue-600 p-[3px] glow-teal animate-float">
               {/* INNER CIRCLE */}
               <div className="w-full h-full rounded-full overflow-hidden relative bg-[#041a2e]">
                 {/* IMAGE */}
